@@ -1,0 +1,7 @@
+\frametitle{References}
+\begin{lstlisting}
+As we see in \cite{LAMBDA_CALCULUS}, ...
+\end{lstlisting}
+\begin{block}{Result}
+As we see in \cite{LAMBDA_CALCULUS}, ...
+\end{block}

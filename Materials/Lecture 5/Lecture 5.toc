@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.27pt}
+\beamer@sectionintoc {1}{Good writing}{3}{0}{1}
+\beamer@sectionintoc {2}{Principles and practices}{23}{0}{2}
+\beamer@sectionintoc {3}{Research question or problem}{31}{0}{3}
+\beamer@sectionintoc {4}{Research question or problem}{32}{0}{4}
+\beamer@sectionintoc {5}{Scientific frame}{33}{0}{5}
+\beamer@sectionintoc {6}{Other people's work}{47}{0}{6}
+\beamer@sectionintoc {7}{Structure of the text}{52}{0}{7}
+\beamer@sectionintoc {8}{Common issues}{55}{0}{8}
+\beamer@sectionintoc {9}{In closing...}{57}{0}{9}

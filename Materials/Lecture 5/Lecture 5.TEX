@@ -1,0 +1,614 @@
+\documentclass{beamer}
+\usetheme{Warsaw}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+
+\title{A load of stylistic advice for technical writing}
+
+\author{Giuseppe Maggiore}
+
+\institute{NHTV University of Applied Sciences \\ 
+Breda, Netherlands}
+
+\date{7th January 2013}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{Agenda}
+\tableofcontents
+\end{frame}
+
+\section{Good writing}
+\begin{frame}{Basics}
+\begin{block}{Good writing and good ideas}
+\begin{itemize}
+\item good writing is essential in a dissertation, but it cannot compensate for paucity of ideas or concepts
+\item a clear presentation actually exposes weaknesses
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Basics}
+\begin{block}{Clarity}
+\begin{itemize}
+\item each sentence in a dissertation must be complete and correct in a grammatical sense
+\item writing must be crystal clear
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Basics}
+\begin{block}{Clarity}
+\begin{itemize}
+\item shades of meaning matter: terminology and prose must make fine distinctions
+\item the words must convey \textit{exactly} the meaning intended
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Basics}
+\begin{block}{Pitfalls}
+a dissertation must satisfy the stringent rules of formal grammar, and avoid:
+\begin{itemize}
+\item contractions, such as ``not'' for ``-n't'', ``have'' for ``-'ve''
+\item colloquialisms, such as ``old as the hills'', ``raining cats and dogs'', ``dead as a doornail'', etc.
+\item slang, ``cool'' and ``hot''
+%\item slurs, ``kids'', ``old fart''
+\item undefined technical jargon, 
+\item hidden jokes
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Basics}
+\begin{block}{Technical terms}
+\begin{itemize}
+\item each technical term used in a dissertation must be defined:
+  \begin{itemize}
+  \item a reference for standard terms
+  \item a precise, unambiguous definition that appears before the term 
+  \end{itemize}
+\item each term should be used in one and only one way throughout the dissertation
+\item the introduction can give the intuition of terms, provided a precise definition is given later
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Grammar and style}
+\begin{block}{Style}
+\begin{itemize}
+\item avoid adverbs: ``mostly, they are very often overly used''
+\item use strong words: ``writers abuse adverbs''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Grammar and style}
+\begin{block}{Style}
+\begin{itemize}
+\item use the active voice: ``the operating system starts the device'', not ``the device is started by the operating system''
+\item avoid future tense: ``the system writes a page to the disk and then uses the frame ...'' instead of ``the system will use the frame after it wrote the page to disk ...''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Grammar and style}
+\begin{block}{Sentence structure}
+\begin{itemize}
+\item negation early: ``no data block waits on the output queue'' instead of ``a data block awaiting output is not on the queue''
+\item be careful that the subject really does what the verb says: ``RPC requires programs to transmit large packets'' is not the same as ``RPC requires a mechanism that allows programs to transmit large packets''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Grammar and style}
+\begin{block}{First person}
+\begin{itemize}
+\item the author is invisible, and talks from the perspective of the done work: ``we were surprised to learn'' is never said
+\item no first person: ``I will describe'' should be ``Section 7 describes''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Moral judgements}
+\begin{block}{Amoral assessment}
+\begin{itemize}
+\item no moral judgements such as ``true, pure, bad, good, nice, terrible, stupid''; things are ``correct/incorrect''
+\item quality assessments are done precisely: ``method A requires less computation time than method B''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Moral judgements}
+\begin{block}{No qualitative judgements}
+\begin{itemize}
+\item avoid qualitative judgements such as ``better/worse''
+\item ``obvious, clear, simple'' is vague and often slightly insulting
+\item nothing is ``perfect'', or ``an ideal solution''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Moral judgements}
+\begin{block}{Minor mistakes}
+\begin{itemize}
+\item ``a famous researchers'' is never relevant; also, do not prejudice the reader
+\item ``commercial success'' is never relevant; also, do not prejudice the reader
+\item ``hopefully'': hope has no place in science
+\item ``should'': who says so?
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+Precision is of paramount importance in science:
+\begin{itemize}
+\item ``few, most, all, any, every'' are not precise enough
+\item ``all, any, every'' are almost always false
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+Precision is of paramount importance in science:
+\begin{itemize}
+\item ``most computer systems contain X'': are you sure you really know the facts? How many computers were built and sold yesterday? 
+\item For example, did you know that books sell more than films or music \textit{combined}?
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+\begin{itemize}
+\item ``today, modern times'' are tomorrow's yesterday
+\item ``soon'' means nothing: it is true now, or it is irrelevant
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+\begin{itemize}
+\item ``seems, seemingly, would seem to show'': appearances do not matter; facts and substance do
+\item ...unless you are making a point to ensure the reader does not fall into an intuitive trap
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+\begin{itemize}
+\item ``in terms of, based on'' is usually too vague
+\item ``in light of'' is too colloquial
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Minor mistakes}
+\begin{itemize}
+\item ``lots of, kind of, type of, just about, something like, number of, due to, probably'' are too vague and colloquial
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Risky constructs}
+\begin{itemize}
+\item ``actually, really'' often imply imprecision; restructure so as to avoid the need for clarification
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Precision}
+\begin{block}{Risky constructs}
+\begin{itemize}
+\item ``this, that'' can refer to too many things: ``X does Y. \underline{This} means ...'' \underline{Y}? \underline{does}?
+\item ``proof, prove, show'' would a mathematician agree? (show $=$ prove)
+\item ``can/may''; ``the algorithm can compute the $F$ of $X$ up to ten thousand elements ...''; ``a user may choose option A or option B''
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{Principles and practices}
+\begin{frame}{Principles to adhere to}
+\begin{block}{Core principles of correct scientific writing}
+\begin{itemize}
+\item \textbf{Correctness.} Write correct English, but know that you have more latitude than your high-school English teachers may have given you.
+\item \textbf{Consistent names.} Refer to each significant character (algorithm, concept, language) using the same word everywhere. Give a significant new character a proper name.
+\item \textbf{Singular.} To distinguish \texttt{one-to-one} relationships from \texttt{n-to-m} relationships, refer to each item in the singular, not the plural.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Principles to adhere to}
+\begin{block}{Core principles of correct scientific writing}
+\begin{itemize}
+\item \textbf{Subjects and verbs.} Important characters in subjects; join each subject to a verb that expresses a significant action.
+\item \textbf{Information flow.} In each sentence, move from familiar information to new information.
+\item \textbf{Emphasis.} For material you want to carry weight or be remembered, use the end of a sentence.
+\item \textbf{Coherence.} In a coherent passage, choose subjects that refer to a consistent set of related concepts.
+\item \textbf{Parallel structure.} Order your text so your reader can easily see similar/different concepts.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Practices to follow}
+\begin{block}{Behaviours that lead to better texts}
+\begin{itemize}
+\item Write in brief daily sessions. Ignore the common myth that successful writing requires large, uninterrupted blocks of time.
+\item Focus on the process, not the product. Do not worry about the size or quality of your output; instead, reward yourself for the consistency and regularity of your input.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Practices to follow}
+\begin{block}{Behaviours that lead to better texts}
+\begin{itemize}
+\item Prewrite. Do not be afraid to think before you write, or even jot down notes, diagrams, and so on.
+\item Use index cards. Use them to plan a draft or to organize or reorganize a large unit like a section or chapter.
+\item Write a \textit{Shitty First Draft \texttrademark}. Value a first draft not because it is great but because it is there.
+\item Do not worry about page limits. Write the paper you want, then cut it down to size.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Guidelines}
+\begin{block}{Supplementary useful guidelines}
+When explaining new concepts in science and engineering:
+\begin{itemize}
+\item enumerate all the properties of the thing
+\item say whether the thing is completely characterized by those properties
+\item give a name or symbol to each property
+\item give the type/kind of each property
+\item explain relationships that hold among the properties, and what forces them to hold
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Guidelines}
+\begin{block}{Supplementary useful guidelines/2}
+Examples help a lot when explaining complex concepts.
+\begin{itemize}
+\item Do you have examples? They are helpful, and they should
+\begin{itemize}
+\item Be plentiful 
+\item Use parallel structure 
+\item Be connected to each other when possible
+\end{itemize}
+Ideally a single running example appears in each section of the manuscript (supplemented by additional examples.)
+\item Every general, abstract declaration is illustrated by an example
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Guidelines}
+\begin{block}{Supplementary useful guidelines/3}
+When presenting complicated technical abstractions:
+\begin{itemize}
+\item You may well have a nest of interrelated concepts 
+\item Sometimes there is no obvious order of presentation
+\item Make simplifications for pedagogical purposes (and announce them)
+\item Mention a concept without defining it (``Let’s assume that \texttt{l} is a location on the stack, without going into the details, which are in Section \textit{12}.'')
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Guidelines}
+\begin{block}{Supplementary useful guidelines/4}
+When presenting complicated technical abstractions:
+\begin{itemize}
+\item Types help. Give the type of every operation
+\item Explain the name of each variable or Greek letter; for example, explain that $\Gamma$ stands for a parsing environment
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{Research question or problem}
+\begin{frame}{Problem statement}
+\begin{block}{Finding the problem}
+\begin{itemize}
+\item a thesis identifies a \textit{worthwhile} problem or question
+\item a (thorough) review of the existing literature on the subject shows your question to be original and valuable
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{Research question or problem}
+\begin{frame}{Problem statement}
+\begin{block}{Highlighting the problem statement}
+\begin{itemize}
+\item the research question should be stated \textit{as clearly as possible}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{Scientific frame}
+\begin{frame}{Thesis goals}
+\begin{block}{Central concerns}
+\begin{itemize}
+\item a thesis is a hypothesis or conjecture
+\item two important adjectives are ``original'' and ``substantial''
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Scientific methodology}
+\begin{block}{Methodology}
+\begin{itemize}
+\item describe your scientific methodology, and why you have chosen it
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Scientific methodology}
+\begin{block}{Process}
+\begin{itemize}
+\item start with a hypothesis, and then collect evidence to support or deny it
+\item the most difficult part of a dissertation is the organization of the evidence and associated discussions into a coherent form
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Scientific methodology}
+\begin{block}{Methodology}
+\begin{itemize}
+\item the facts that result from an experiment are called ``data'', the useful information condensed from the data is the resulting ``knowledge''
+\item the aim of a thesis is always knowledge
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Scientific methodology}
+\begin{block}{Goal}
+\begin{itemize}
+\item a dissertation concentrates on principles: it states the lessons learned, and not merely the facts behind them
+\item this requires an effort in generalization; \textit{what useful bit of understanding comes from the results?}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Scientific methodology}
+\begin{block}{Methodology}
+\begin{itemize}
+\item the essence of a dissertation is \textit{critical thinking}, not experimental data
+\item analysis and concepts form the heart of the work
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Dangers}
+\begin{block}{Challenges to proper science}
+\begin{itemize}
+\item separate cause-effect relationships from statistical correlation
+\item ``pirates absorb C02''
+\item \url{http://www.forbes.com/sites/erikaandersen/2012/03/23/true-fact-the-lack-of-pirates-is-causing-global-warming/}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Dangers}
+\begin{block}{Challenges to proper science}
+\begin{itemize}
+\item only draw warranted conclusions: ``the same game on an XBox One is faster than on a PS4, therefore the PS4 is worse than the XBox One''
+\item may depend on implementation, language, runtime, OS, etc.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Dangers}
+\begin{block}{Challenges to proper science}
+\begin{itemize}
+\item even if the cause of some phenomenon seems obvious, one cannot draw a conclusion without solid, supporting evidence
+\item do not hide reliability problems with your testing methodology; your resources are constrained, so random samples or extensive tests may not be feasible
+\item reasonable choices and honesty are always appreciated
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Results, results, results!}
+\begin{block}{Strict exposition of results}
+\begin{itemize}
+\item focus on results, not people or circumstances
+\item ''after eight hours of tests, Jim and I discovered the results now in Table 3''
+\item ''if that cat had not crawled through the hole in the floor, we might not have discovered the power supply error indicator''
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Results, results, results!}
+\begin{block}{Strict exposition of results}
+\begin{itemize}
+\item avoid self-assessment, such as ``we present a major breakthrough in the design of distributed systems'', or ``although the technique in the next section is not earthshaking, ...''
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Results, results, results!}
+\begin{block}{Each statement works well}
+\begin{itemize}
+\item each statement in a dissertation must satisfy the most stringent rules of logic applied to mathematics and science
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Results, results, results!}
+\begin{block}{Principles of knowledge}
+\begin{itemize}
+\item have a basis for all statements; either original work, or a reference to scientific literature
+\item references should only be interested in others' results, not their methodology or analysis
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Results, results, results!}
+\begin{block}{Sociality and science}
+\begin{itemize}
+\item never draw conclusions about economic viability or commercial success; ``over four hundred vendors make products using technique Y'' is irrelevant in a dissertation
+\item it does not matter whether government bodies, political parties, religious groups, or other organizations endorse an idea
+\item it does not matter who discovered something: a first year graduate student or a Nobel-prize winner
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{Other people's work}
+\begin{frame}{Comparisons}
+\begin{block}{On the shoulders of giants}
+\begin{itemize}
+\item a thesis should contain a chapter about what other people have done in the same or similar areas
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Comparisons}
+\begin{block}{On the shoulders of giants}
+\begin{itemize}
+\item some web pages and wikipedia articles contain very scientifically sound information. Refer to them, possibly through \textit{WebCite}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Comparisons}
+\begin{block}{On the shoulders of giants}
+\begin{itemize}
+\item all references \textit{must} be referred to in the main body of the thesis
+\item do not use footnotes for references
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Comparisons}
+\begin{block}{Problem statement references}
+\begin{itemize}
+\item you should \textit{demonstrate} that the question has not been answered already and that it is worth answering
+\item interestingly, it is easier to answer the question than to discuss it, as you will become familiar with the details of the solution by working on it
+\item the question is harder to reason about since it stems from your intuition
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Comparisons}
+\begin{block}{No plagiarism}
+\begin{itemize}
+\item avoid plagiarism at all costs; clearly specify every text you have quoted from someone else, and never use other people's text without indicating the source
+\item it is \textit{exactly} a form of stealing; you are stealing someone else's hard work and using it to achieve your own personal results
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{Structure of the text}
+\begin{frame}{Funnel}
+\begin{block}{Funnel structure}
+\begin{itemize}
+\item introduction (broadest, intuition)
+\item problem (still broad, precise)
+\item solution (narrow, specific to the problem, precise)
+\item assessment (narrowest, specific to the solution, very precise, analytic/synthetic)
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Writing strategy}
+\begin{block}{From the intuition to the details}
+\begin{itemize}
+\item prepare an extended outline, one or two sentences for each chapter/section
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Writing strategy}
+\begin{block}{From the intuition to the details}
+\begin{itemize}
+\item write the problem statement and assessment methodology first, then go to your supervisor
+\item without these, he cannot determine if your thesis will work or not!
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{Common issues}
+\begin{frame}{Broader issues}
+\begin{block}{Not all theses are very good}
+Many theses are accepted even though they are not very good because:
+\begin{itemize}
+\item they are too long
+\item there is too much well-known information on the field, such as tutorials or user guides
+\item they are too short
+\item they contain detailed transcripts of data
+\item they leave you wondering ``so what?''
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Remember your audience}
+\begin{block}{Your thesis is read by people}
+Answer the following supervisor questions with your thesis:
+\begin{itemize}
+\item what is the student's \textit{research question}?
+\item is it a good (\textit{open}, \textit{novel}, \textit{relevant}) question?
+\item did the student convince me that the question was \textit{adequately answered}?
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\section{In closing...}
+\begin{frame}{Clarity and knowledge}
+\begin{block}{Just remember}
+\begin{itemize}
+\item it is impossible to be too clear, so spell things out carefully
+\item tools such as computer programs are fine and useful products, but the most important item of all is the ideas embodied by the tool, not the tool itself
+\item remember that the purpose of your thesis is \textit{knowledge}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{This is it}
+\begin{block}{ }
+Thank you!
+\end{block}
+\end{frame}
+
+
+%\begin{frame}[allowframebreaks]{Bibliography}
+%\bibliographystyle{plain}
+%\bibliography{bibliography}
+%\end{frame}
+
+\end{document}
